@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	font-family: Arial, sans-serif;
+}
+
+main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 80%;
+	max-width: 600px;
+	padding: 20px;
+}
