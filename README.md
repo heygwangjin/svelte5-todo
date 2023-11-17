@@ -1,4 +1,16 @@
-# create-svelte
+# Svelte 5
+
+## Event handlers
+
+Svelte 5 에서는 더 이상 `on:` directive를 사용하여 이벤트 리스너를 등록하지 않고, 다른 프로퍼티처럼 작성하면 된다.
+
+```html
+<script>
+	let count = $state(0);
+</script>
+
+<button onclick="{()" ="">count++}> clicks: {count}</button>
+```
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
