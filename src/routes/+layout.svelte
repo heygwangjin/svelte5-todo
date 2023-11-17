@@ -15,7 +15,7 @@
 		display: grid;
 		place-content: center;
 		font-family: 'Manrope Variable', sans-serif;
-		color: hsl(220 10% 98%);
+		color: hsl(220 10% 8%);
 		background-color: hsl(220 10% 8%);
 	}
 </style>
